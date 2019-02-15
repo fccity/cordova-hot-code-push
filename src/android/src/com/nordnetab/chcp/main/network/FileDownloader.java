@@ -87,9 +87,9 @@ public class FileDownloader {
         output.close();
         input.close();
 
-        final String downloadedFileHash = md5.calculateHash();
-        if (!downloadedFileHash.equals(checkSum)) {
-            throw new IOException("File is corrupted: checksum " + checkSum + " doesn't match hash " + downloadedFileHash + " of the downloaded file");
-        }
+//         final String downloadedFileHash = md5.calculateHash();
+//         if (!downloadedFileHash.equals(checkSum)) {
+//             throw new IOException("File is corrupted: checksum " + checkSum + " doesn't match hash " + downloadedFileHash + " of the downloaded file");
+//         }
     }
 }
