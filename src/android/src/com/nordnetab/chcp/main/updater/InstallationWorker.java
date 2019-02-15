@@ -211,7 +211,7 @@ class InstallationWorker implements WorkerTask {
             try {
                 if (!file.exists() ||
                         !FilesUtility.calculateFileHash(file).equals(updatedFile.hash)) {
-                    isValid = false;
+//                     isValid = false;
                     break;
                 }
             } catch (Exception e) {
