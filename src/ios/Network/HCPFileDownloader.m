@@ -114,7 +114,7 @@ static NSUInteger const TIMEOUT = 300;
     
     NSLog(@"Hash %@ doesn't match the checksum %@", dataHash, checksum);
     
-    return YES;
+    return NO;
 }
 
 /**
